@@ -1,13 +1,37 @@
 .landing-page-container {
   display: flex;
-  align-items: center;
   justify-content: center;
+  align-items: center;
   /* FIXME: optional gap */
-  gap: 12rem;
+  gap: 10rem;
   max-width: 128rem;
   height: 100vh;
   margin: 0 auto;
+  padding: 0 5rem;
   background-color: #c4c4c4;
   font-family: 'Arial, sans-serif';
   display: flex;
+}
+
+.image-box {
+  flex: 1 1 50%;
+  border: 1px solid #000;
+  height: 75vh;
+  background-image: url('../../../public/todo-list.png');
+  border-radius: 5rem;
+}
+
+.content-box {
+  flex: 1 1 50%;
+  width: 50%;
+  height: 75vh;
+  border: 1px solid #000;
+  border-radius: 5rem;
+  background-color: #fff;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
