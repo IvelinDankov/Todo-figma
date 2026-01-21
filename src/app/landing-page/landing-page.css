@@ -1,0 +1,13 @@
+.landing-page-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  /* FIXME: optional gap */
+  gap: 12rem;
+  max-width: 128rem;
+  height: 100vh;
+  margin: 0 auto;
+  background-color: #c4c4c4;
+  font-family: 'Arial, sans-serif';
+  display: flex;
+}
